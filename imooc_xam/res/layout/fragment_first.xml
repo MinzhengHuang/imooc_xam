@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="第一页"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_Library"
+        style="@style/btn_style"
+        android:text="Library" />
+
+    <Button
+        android:id="@+id/btn_ClearEditText"
+        style="@style/btn_style"
+        android:text="ClearEditText" />
+
+    <Button
+        android:id="@+id/btn_CircleProgress"
+        style="@style/btn_style"
+        android:text="CircleProgress" />
+    <Button
+        android:id="@+id/btn_DragGridView"
+        style="@style/btn_style"
+        android:text="DragGridView" />
+    <Button
+        android:id="@+id/btn_PhotoAlbum"
+        style="@style/btn_style"
+        android:text="PhotoAlbum" />
+    <Button
+        android:id="@+id/btn_SwipeToDismiss"
+        style="@style/btn_style"
+        android:text="SwipeTodismiss" />
+    <Button
+        android:id="@+id/btn_SortListView"
+        style="@style/btn_style"
+        android:text="SortListView" />
+    <Button
+        android:id="@+id/btn_SlideCutListView"
+        style="@style/btn_style"
+        android:text="SlideCutListView" />
+
+</LinearLayout>
