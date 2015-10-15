@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/huangminzheng/learn_and_work/hmz_github/imooc_xam/imooc_xam/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="/Users/huangminzheng/learn_and_work/hmz_github/imooc_xam/imooc_xam/build/intermediates/pre-dexed/debug/android-support-v4-0051dc54428954ae2e07b37b242fafdefc0fa972.jar" />
+    </item>
+    <item
+        jar="/Users/huangminzheng/learn_and_work/hmz_github/imooc_xam/imooc_xam/libs/nineoldanimatin.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="0c9460454d4f6578861c7312199a6bab9e1a9db7">
+        <dex dex="/Users/huangminzheng/learn_and_work/hmz_github/imooc_xam/imooc_xam/build/intermediates/pre-dexed/debug/nineoldanimatin-a4e63034b934fbf10128c2546fd68e6ef56cd51a.jar" />
+    </item>
+
+</items>

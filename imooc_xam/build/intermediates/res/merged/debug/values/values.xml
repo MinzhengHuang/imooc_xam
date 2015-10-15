@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/huangminzheng/learn_and_work/hmz_github/imooc_xam/imooc_xam/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="date">
+        <item>阿妹</item>
+        <item>阿郎</item>
+        <item>陈奕迅</item>
+        <item>周杰伦</item>
+        <item>曾一鸣</item>
+        <item>成龙</item>
+        <item>王力宏</item>
+        <item>汪峰</item>
+        <item>王菲</item>
+        <item>那英</item>
+        <item>张伟</item>
+        <item>张学友</item>
+        <item>李德华</item>
+        <item>郑源</item>
+        <item>白水水</item>
+        <item>白天不亮</item>
+        <item>陈龙</item>
+        <item>陈丽丽</item>
+        <item>哈林</item>
+        <item>高进</item>
+        <item>高雷</item>
+        <item>阮今天</item>
+        <item>龚琳娜</item>
+        <item>苏醒</item>
+        <item>苏永康</item>
+        <item>陶喆</item>
+        <item>沙宝亮</item>
+        <item>宋冬野</item>
+        <item>宋伟</item>
+        <item>袁成杰</item>
+        <item>戚薇</item>
+        <item>齐大友</item>
+        <item>齐天大圣</item>
+        <item>品冠</item>
+        <item>吴克群</item>
+        <item>BOBO</item>
+        <item>Jobs</item>
+        <item>动力火车</item>
+        <item>伍佰</item>
+        <item>#蔡依林</item>
+        <item>$797835344$</item>
+        <item>Jack</item>
+        <item>~夏先生</item>
+    </string-array>
+    <!-- From: file:/Users/huangminzheng/learn_and_work/hmz_github/imooc_xam/imooc_xam/res/values/attr.xml -->
+    <eat-comment/>
+    <attr format="color" name="color"/>
+    <attr format="reference" name="icon"/>
+    <attr format="string" name="text"/>
+    <attr format="dimension" name="text_size"/>
+    <!-- From: file:/Users/huangminzheng/learn_and_work/hmz_github/imooc_xam/imooc_xam/res/values/color.xml -->
+    <eat-comment/>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="ChangeColorIconWithText"><attr name="icon"/><attr name="color"/><attr name="text"/><attr name="text_size"/></declare-styleable>
+    <declare-styleable name="RoundProgressBar"><attr format="color" name="roundColor"/><attr format="color" name="roundProgressColor"/><attr format="dimension" name="roundWidth"/><attr format="color" name="textColor"/><attr format="dimension" name="textSize"/><attr format="integer" name="max"/><attr format="boolean" name="textIsDisplayable"/><attr name="style"><enum name="STROKE" value="0"/><enum name="FILL" value="1"/></attr></declare-styleable>
+    <!-- From: file:/Users/huangminzheng/learn_and_work/hmz_github/imooc_xam/imooc_xam/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/huangminzheng/learn_and_work/hmz_github/imooc_xam/imooc_xam/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_add">添加</string>
+    <string name="action_search">查找</string>
+    <string name="app_name">夏安明</string>
+    <string name="menu_addfriend">添加朋友</string>
+    <string name="menu_feedback">意见反馈</string>
+    <string name="menu_group_chat">发起群聊</string>
+    <string name="menu_scan">扫一扫</string>
+    <string name="tab_contact">通讯录</string>
+    <string name="tab_found">发现</string>
+    <string name="tab_me">我</string>
+    <!-- From: file:/Users/huangminzheng/learn_and_work/hmz_github/imooc_xam/imooc_xam/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="MMAnimation.Activity" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style>
+    <style name="MMTheme.Basic" parent="@android:style/Theme">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/MMAnimation.Activity</item>
+    </style>
+    <style name="btn_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>
