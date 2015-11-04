@@ -1,2 +1,4 @@
-/imooc_xam/bin/*
-/imooc_xam/bin/classes.dex
+imooc_xam/bin/*
+imooc_xam/.gradle/*
+imooc_xam/build/*
+imooc_xam/.idea/*
