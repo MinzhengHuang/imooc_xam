@@ -1,4 +1,4 @@
-package com.xam;
+package com.xam.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+import com.xam.R;
 import com.xam.view.RoundProgressBar;
 
 

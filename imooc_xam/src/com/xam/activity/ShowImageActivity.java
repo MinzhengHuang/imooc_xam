@@ -1,13 +1,14 @@
-package com.xam;
-
-import java.util.List;
+package com.xam.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.GridView;
 import android.widget.Toast;
 
+import com.xam.R;
 import com.xam.adapter.ChildAdapter;
+
+import java.util.List;
 
 public class ShowImageActivity extends Activity {
 	private GridView mGridView;

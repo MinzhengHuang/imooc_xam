@@ -8,15 +8,15 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 
-import com.xam.CircleProgressActivity;
-import com.xam.ClearEditTextActivity;
-import com.xam.DragGridViewActivity;
-import com.xam.LibraryActivity;
-import com.xam.PhotoAlbumActivity;
 import com.xam.R;
-import com.xam.SlideCutListViewActivity;
-import com.xam.SortListViewActivity;
-import com.xam.SwipeActivity;
+import com.xam.activity.CircleProgressActivity;
+import com.xam.activity.ClearEditTextActivity;
+import com.xam.activity.DragGridViewActivity;
+import com.xam.activity.LibraryActivity;
+import com.xam.activity.PhotoAlbumActivity;
+import com.xam.activity.SlideCutListViewActivity;
+import com.xam.activity.SortListViewActivity;
+import com.xam.activity.SwipeActivity;
 
 public class FirstFragment extends Fragment implements OnClickListener{
 

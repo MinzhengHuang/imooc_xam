@@ -1,8 +1,4 @@
-package com.xam;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+package com.xam.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -16,6 +12,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.xam.R;
 import com.xam.adapter.SortAdapter;
 import com.xam.data.SortModel;
 import com.xam.utils.CharacterParser;
@@ -23,6 +20,10 @@ import com.xam.utils.PinyinComparator;
 import com.xam.view.ClearEditText;
 import com.xam.view.SideBar;
 import com.xam.view.SideBar.OnTouchingLetterChangedListener;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class SortListViewActivity extends Activity {
 	private ListView sortListView;

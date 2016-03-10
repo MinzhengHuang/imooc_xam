@@ -1,9 +1,5 @@
-package com.xam;
+package com.xam.activity;
 
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -12,8 +8,13 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Toast;
 
+import com.xam.R;
 import com.xam.adapter.DragAdapter;
 import com.xam.view.DragGridView;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 /**
  * @blog http://blog.csdn.net/xiaanming 

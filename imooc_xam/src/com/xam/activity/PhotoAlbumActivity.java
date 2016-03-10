@@ -1,4 +1,4 @@
-package com.xam;
+package com.xam.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -11,6 +11,8 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
+
+import com.xam.R;
 
 public class PhotoAlbumActivity extends Activity implements OnItemClickListener {
 	private GridView mGridView;

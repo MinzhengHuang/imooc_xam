@@ -1,7 +1,4 @@
-package com.xam;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.xam.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -11,8 +8,12 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
+import com.xam.R;
 import com.xam.view.SwipeDismissListView;
 import com.xam.view.SwipeDismissListView.OnDismissCallback;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class SwipeActivity extends Activity {
 	private SwipeDismissListView mlvSwipeDismiss;

@@ -1,4 +1,4 @@
-package com.xam;
+package com.xam.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -13,6 +13,8 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout.LayoutParams;
 import android.widget.Toast;
 import android.widget.ViewSwitcher.ViewFactory;
+
+import com.xam.R;
 
 public class ShowPhotoActivity extends Activity implements ViewFactory, OnTouchListener{
 	/**

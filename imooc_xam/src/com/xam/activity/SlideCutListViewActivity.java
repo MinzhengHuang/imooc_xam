@@ -1,7 +1,4 @@
-package com.xam;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.xam.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -11,9 +8,13 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
+import com.xam.R;
 import com.xam.view.SlideCutListView;
 import com.xam.view.SlideCutListView.RemoveDirection;
 import com.xam.view.SlideCutListView.RemoveListener;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class SlideCutListViewActivity extends Activity implements RemoveListener{

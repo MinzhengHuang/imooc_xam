@@ -1,11 +1,4 @@
-package com.xam;
-
-import java.io.File;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
+package com.xam.activity;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -24,8 +17,17 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 import android.widget.Toast;
 
+import com.xam.R;
 import com.xam.adapter.GroupAdapter;
 import com.xam.data.ImageBean;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+
 /**
  * @blog http://blog.csdn.net/xiaanming
  * 
