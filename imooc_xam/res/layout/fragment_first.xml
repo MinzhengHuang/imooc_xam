@@ -48,4 +48,19 @@
         style="@style/btn_style"
         android:text="SlideCutListView" />
 
+    <Button
+        android:id="@+id/btn_CustomCrash"
+        style="@style/btn_style"
+        android:text="CustomCrash" />
+
+    <Button
+        android:id="@+id/btn_AsyncImageLoader"
+        style="@style/btn_style"
+        android:text="AsyncImageLoader" />
+
+    <Button
+        android:id="@+id/btn_SingleTouchView"
+        style="@style/btn_style"
+        android:text="SingleTouchView" />
+
 </LinearLayout>

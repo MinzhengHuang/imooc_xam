@@ -25,6 +25,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * http://blog.csdn.net/xiaanming/article/details/12684155
+ *
+ * Android 实现ListView的A-Z字母排序和过滤搜索功能，实现汉字转成拼音
+ */
 public class SortListViewActivity extends Activity {
 	private ListView sortListView;
 	private SideBar sideBar;
@@ -112,6 +117,7 @@ public class SortListViewActivity extends Activity {
 			
 			@Override
 			public void afterTextChanged(Editable s) {
+
 			}
 		});
 	}
@@ -158,7 +164,8 @@ public class SortListViewActivity extends Activity {
 			filterDateList.clear();
 			for(SortModel sortModel : SourceDateList){
 				String name = sortModel.getName();
-				if(name.indexOf(filterStr.toString()) != -1 || characterParser.getSelling(name).startsWith(filterStr.toString())){
+				if(name.indexOf(filterStr.toString()) != -1 || characterParser.getSelling(name)
+						.startsWith(filterStr.toString())){
 					filterDateList.add(sortModel);
 				}
 			}

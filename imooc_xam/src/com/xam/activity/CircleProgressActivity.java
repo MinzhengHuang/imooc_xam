@@ -9,7 +9,11 @@ import android.widget.Button;
 import com.xam.R;
 import com.xam.view.RoundProgressBar;
 
-
+/**
+ * Android 高手进阶之自定义View，自定义属性（带进度的圆形进度条）
+ *
+ * http://blog.csdn.net/xiaanming/article/details/10298163
+ */
 public class CircleProgressActivity extends Activity {
 	private RoundProgressBar mRoundProgressBar1, mRoundProgressBar2,
 			mRoundProgressBar3, mRoundProgressBar4, mRoundProgressBar5;

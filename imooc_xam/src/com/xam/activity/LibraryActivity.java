@@ -10,6 +10,11 @@ import android.widget.Toast;
 
 import com.xam.utils.MResource;
 
+/**
+ *  Android将Activity打成jar包供第三方调用（解决资源文件不能打包的问题）
+ *
+ *  http://blog.csdn.net/xiaanming/article/details/9257853
+ */
 public class LibraryActivity extends Activity {
 	String msg = "我是来自Jar中的Activity";
 
